@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_reviews",
+  "info": {
+    "name": "Reviews",
+    "icon": "star-half-alt"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "review": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

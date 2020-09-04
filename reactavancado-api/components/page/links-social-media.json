@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_links_social_medias",
+  "info": {
+    "name": "linksSocialMedia",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "Twitter",
+        "Facebook",
+        "Instagram",
+        "Dribbble",
+        "Github",
+        "Linkedin"
+      ],
+      "required": true,
+      "default": "Twitter"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

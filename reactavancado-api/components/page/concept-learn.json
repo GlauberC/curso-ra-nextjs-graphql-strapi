@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_concept_learns",
+  "info": {
+    "name": "conceptLearn",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "concepts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.concepts"
+    }
+  }
+}
