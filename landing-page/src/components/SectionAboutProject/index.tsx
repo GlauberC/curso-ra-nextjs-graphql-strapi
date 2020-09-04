@@ -10,14 +10,14 @@ import { getImageUrl } from 'utils/getImageUrl'
 const SectionAboutProject = ({
   title,
   description,
-  ilustration
+  illustration
 }: SectionAboutProjectProps) => (
   <S.Wrapper>
     <Container>
       <S.Container>
         <S.Image
-          src={getImageUrl(ilustration.url)}
-          alt={ilustration.alternativeText}
+          src={getImageUrl(illustration.url)}
+          alt={illustration.alternativeText}
           loading="lazy"
         />
         <div>

@@ -12,8 +12,8 @@ const SectionTech = ({ title, techIcons }: SectionTechProps) => (
     <Container>
       <Heading reverseColor>{title}</Heading>
       <S.IconsContainer>
-        {techIcons.map(({ imgIcon, titleIcon }) => (
-          <S.Icon key={titleIcon}>
+        {techIcons.map(({ imgIcon, titleIcon, id }) => (
+          <S.Icon key={id}>
             <S.Icons
               src={getImageUrl(imgIcon.url)}
               alt={imgIcon.alternativeText}

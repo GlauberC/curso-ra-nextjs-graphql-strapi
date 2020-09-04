@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "ilustration": {
+    "illustration": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

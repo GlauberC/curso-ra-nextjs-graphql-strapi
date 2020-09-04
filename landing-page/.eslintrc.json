@@ -24,6 +24,7 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/jsx-no-target-blank": "off",
     "@typescript-eslint/no-empty-interface": [
       "error",
       {
